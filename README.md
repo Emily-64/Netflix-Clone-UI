@@ -16,3 +16,5 @@ A simple Netflix-inspired static website with a landing page and dashboard layou
 
 ## 📁 How to Use
 Clone the repo and open `index.html` in your browser.
+
+👉 [Live Site](https://emily-64.github.io/Netflix-Clone-UI/)
