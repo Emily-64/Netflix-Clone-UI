@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay">
+      <header class="navbar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" class="logo" alt="Netflix Logo">
+        <div>
+          <button class="btn">Sign In</button>
+        </div>
+      </header>
+
+      <div class="hero-content">
+        <h1>Unlimited movies, TV shows, and more</h1>
+        <h2>Watch anywhere. Cancel anytime.</h2>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        
+        <form id="loginForm" class="email-signup">
+          <input type="email" id="email" placeholder="Email address" required>
+          <button type="submit" class="btn btn-red">Get Started &gt;</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // prevent form submission
+      const email = document.getElementById("email").value;
+      if (email) {
+        // You can save email or send it to backend here
+        window.location.href = "dashboard.html"; // Redirect to dashboard
+      }
+    });
+  </script>
+</body>
+</html>
