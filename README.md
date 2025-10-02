@@ -12,7 +12,7 @@ A simple Netflix-inspired static website with a landing page and dashboard layou
 
 - HTML5
 - CSS3
-- Vanilla JavaScript (minimal)
+- JavaScript 
 
 ## 📁 How to Use
 Clone the repo and open `index.html` in your browser.
